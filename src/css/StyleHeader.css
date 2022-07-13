@@ -1,19 +1,19 @@
-
-
-#navBar{
+#navBar {
     background-color: #FFE600;
 }
-#btnSearch{
+
+#btnSearch {
     background-color: #EEEEEE;
 }
 
-#searchBar{
-    font-size:18px;
+#searchBar {
+    font-size: 18px;
     background: white;
     color: #333333;
 }
+
 /* BREADCRUMB STYLE  */
-#breadcrumb{
+#breadcrumb {
     --bs-breadcrumb-divider: '>';
     font-size: 14px;
     padding-top: 16px;
@@ -22,11 +22,11 @@
 }
 
 /* ITEMS LIST   */
-#container-list-items{
+.container-list-items {
     background: white;
 }
 
-.imgList{
+.imgList {
     width: 180px;
     height: 180px;
     padding: 16px;
@@ -36,25 +36,64 @@
 
 /*  */
 
-.lbl-price{
+.lbl-price {
     font-size: 24px;
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.lbl-title{
+
+.lbl-title {
     font-size: 18px;
 }
 
-.lbl-right{
+.lbl-right {
     font-size: 12px;
     float: right;
     padding-top: 4%;
     margin-right: 10%;
 }
 
+.icon-car {
+    height: 15%;
+    margin-left: 16px;
 
+}
 
+.img-detail {
+    width: 680px;
+    height: 680px;
+}
 
+.lbl-sold{
+    font-size: 14px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
 
+.lbl-title-detail{
+    margin-bottom: 32px;
+    font-size: 24px;
+}
 
+.lbl-price-detail{
+    margin-bottom: 32px;
+    font-size: 42px;
+}
 
+.lbl-decimals{
+
+}
+
+.lbl-descrip-title{
+    font-size: 28px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+
+.lbl-descrip-detail{
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 32px;
+    padding-bottom: 32px; 
+    color: #666666;  
+}
