@@ -1,0 +1,8 @@
+/* BREADCRUMB STYLE  */
+#breadcrumb {
+    --bs-breadcrumb-divider: '>';
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 15px;
+}
