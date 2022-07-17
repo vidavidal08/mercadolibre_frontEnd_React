@@ -14,12 +14,6 @@ function MainPage() {
           <Route path="/" element={<ViewHome/>}/>
           <Route path="/items" element={<ViewItemList/>}/>
           <Route path="/items/:id" element={<ViewdItemDetail/>}/>
-
-          {/*  
-          <Header />
-          <Breadcrumb />
-         <ItemList/> 
-          <DetailItem />*/}
         </Routes>
       </BrowserRouter>
     
