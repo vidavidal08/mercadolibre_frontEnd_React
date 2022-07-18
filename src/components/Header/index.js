@@ -11,7 +11,7 @@ const Index = () => {
                     <div className="container">
                         <form className="container-fluid">
                             <div className="input-group">
-                                <a className="navbar-brand" href="#">
+                                <a className="navbar-brand" href="/">
                                     <img src={logoML} />
                                 </a>
                                 <input id="searchBar" className="form-control" type="search" placeholder="Nunca dejes de buscar" aria-label="Search" />

@@ -1,3 +1,6 @@
+.container-list-items {
+    background: white;
+}
 
 .img-detail {
     width: 680px;
@@ -23,10 +26,6 @@
 .btn-detail{
     background-color: #3483FA;
     border-color: #3483FA;
-}
-
-.lbl-decimals{
-
 }
 
 .lbl-descrip-title{
