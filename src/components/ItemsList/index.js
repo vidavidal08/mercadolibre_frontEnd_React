@@ -12,7 +12,10 @@ export default class Index extends Component {
   }
 
   async componentDidMount() {
-    axios.get(`http://localhost:3001/api/items?q=teclado`)
+    var URLactual = window.location.href;
+    var id = URLactual.split('=');
+
+    axios.get(`http://localhost:3001/api/items?q=${id[1]}`)
       .then(res => {
         const data = res.data[0];
         const items = res.data[0].items;
