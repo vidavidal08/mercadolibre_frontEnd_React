@@ -27,8 +27,8 @@ export default class Index extends Component {
     }else if(URLactual.includes('items/')){
       console.log("vista detalle");
       let id = URLactual.split('items/');
-      
-      axios.get(`http://localhost:3001/api/items/MLA1120971742`)
+
+      axios.get(`http://localhost:3001/api/items/${id[1]}`)
       .then(res => {
         const breadcrumb = res.data[0].categories;
         this.setState({ breadcrumb });
@@ -37,7 +37,6 @@ export default class Index extends Component {
       })
     }
 
-   
   }
 
   render() {
